@@ -1,0 +1,608 @@
+x-bases:
+  - &merc-arm-base
+    Ethereal: true
+    Qualities: [normal, superior]
+    Sockets: [0, 3, 4]
+  - &player-arm-base
+    Qualities: [normal, superior]
+    Sockets: [0, 3, 4]
+    Ethereal: false
+  - &merc-wep-base
+#    Ethereal: true
+    Qualities: [normal, superior]
+    Sockets: [0, 4, 5, 6]
+  - &pally-shield-base
+    Qualities: [normal, superior]
+    Sockets: [0, 4]
+  - &bobar-helm-base
+    - Qualities: [magic, rare]
+    - Qualities: [normal, superior]
+      Sockets: [0, 3]
+
+# 通用头盔
+Winged Helm:
+  - Qualities: [set, unique]
+
+Grand Crown:
+  - Qualities: unique
+
+Grim Helm:
+  - Qualities: unique
+
+Death Mask:
+  - Qualities: set
+
+Shako:
+  - Qualities: unique
+
+Spired Helm:
+  - Qualities: unique
+
+Demonhead:
+  - Qualities: unique
+
+Corona:
+  - Qualities: unique
+
+Bone Visage:
+  - Qualities: set
+
+# 腰带
+Demnhide Sash:
+  - Qualities: unique
+
+Sharkskin Belt:
+  - Qualities: unique
+
+War Belt:
+  - Qualities: [set, unique]
+
+Spiderweb Sash:
+  - Qualities: [unique, rare]
+
+Vampirefang Belt:
+  - Qualities: [unique, rare]
+
+Mithril Coil:
+  - Qualities: [unique, rare]
+
+Troll Belt:
+  - Qualities: set
+
+# 手套
+Chain Gloves:
+  - Qualities: unique
+
+Light Gauntlets:
+  - Qualities: unique
+
+Gauntlets:
+  - Qualities: unique
+
+Demonhide Gloves:
+  - Qualities: rare
+
+Sharkskin Gloves:
+  - Qualities: rare
+
+Heavy Bracers:
+  - Qualities: [set, rare]
+
+Battle Gauntlets:
+  - Qualities: rare
+
+War Gauntlets:
+  - Qualities: [set, unique, rare]
+
+Bramble Mitts:
+  - Qualities: [set, rare]
+
+Vampirebone Gloves:
+  - Qualities: [unique, rare]
+
+Vambraces:
+  - Qualities: [rare]
+
+Ogre Gauntlets:
+  - Qualities: [unique]
+
+# 鞋子
+Demonhide Boots:
+  - Qualities: [unique, rare]
+
+Sharkskin Boots:
+  - Qualities: [unique, rare]
+
+Mesh Boots:
+  - Qualities: [unique, rare]
+
+Battle Boots:
+  - Qualities: [set, unique, rare]
+
+War Boots:
+  - Qualities: [set, unique, rare]
+
+Wyrmhide Boots:
+  - Qualities: rare
+
+Scarabshell Boots:
+  - Qualities: [unique, rare]
+
+Boneweave Boots:
+  - Qualities: [unique, rare]
+
+Mirrored Boots:
+  - Qualities: rare
+
+Mymidon Greavres:
+  - Qualities: [unique, rare]
+
+# 盔甲
+Studded Leather:
+  - Qualities: unique
+
+Serpentskin Armor:
+  - Qualities: unique
+
+Cuirass:
+  - Qualities: unique
+
+Mesh Armor:
+  - Qualities: unique
+
+Russet Armor:
+  - Qualities: unique
+
+Mage Plate:
+  - Qualities: unique
+  - Qualities: [normal, superior]
+    Sockets: [0, 3]
+
+Templar Coat:
+  - Qualities: unique
+
+Dusk Shroud:
+  - Qualities: unique
+  - *player-arm-base
+
+Wyrmhide:
+  - *player-arm-base
+
+Scarab Husk:
+  - *merc-arm-base
+
+Wire Fleece:
+  - Qualities: unique
+  - *merc-arm-base
+
+Diamond Mail:
+  - *merc-arm-base
+
+Loricated Mail:
+  - *merc-arm-base
+
+Great Hauberk:
+  - *merc-arm-base
+
+Boneweave:
+  - *merc-arm-base
+
+Balrog Skin:
+  - Qualities: unique
+  - *merc-arm-base
+
+Archon Plate:
+  - *player-arm-base
+
+Kraken Shell:
+  - *merc-arm-base
+
+Hellforge Plate:
+  - *merc-arm-base
+
+Lacquered Plate:
+  - Qualities: set
+  - *merc-arm-base
+
+Shadow Plate:
+  - *merc-arm-base
+
+Sacred Armor:
+  - Qualities: [set, unique]
+  - *merc-arm-base
+
+# 通用盾牌
+Pavise:
+  - Qualities: unique
+
+Grim Shield:
+  - Qualities: unique
+  - Qualities: superior
+    Sockets: [0, 2]
+
+Monarch:
+  - Qualities: [unique, magic]
+  - Qualities: [normal, superior]
+    Ethereal: false
+    Sockets: [0, 4]
+
+Troll Nest:
+  - Qualities: superior
+    Sockets: [0, 2, 3]
+
+# 头环
+Circlet:
+  - Qualities: [rare, magic]
+
+Tiara:
+  - Qualities: [unique, rare, magic]
+
+Coronet:
+  - Qualities: [rare, magic]
+
+Diadem:
+  - Qualities: [unique, rare, magic]
+
+# 圣骑盾牌
+Akaran Targe:
+  - *pally-shield-base
+
+Akaran Rondache:
+  - *pally-shield-base
+
+Sacred Targe:
+  - *pally-shield-base
+
+Sacred Rondache:
+  - *pally-shield-base
+
+Kurast Shield:
+  - *pally-shield-base
+
+Zakarum Shield:
+  - Qualities: unique
+  - *pally-shield-base
+
+Vortex Shield:
+  - Qualities: set
+  - *pally-shield-base
+
+Gilded Shield:
+ - Qualities: unique
+
+# 野蛮人头
+Jawbone Cap:
+  - *bobar-helm-base
+
+Fanged Helm:
+  - *bobar-helm-base
+
+Horned Helm:
+  - *bobar-helm-base
+
+Assault Helmet:
+  - *bobar-helm-base
+
+Avenger Guard:
+  - Qualities: set
+  - *bobar-helm-base
+
+Jawbone Visor:
+  - *bobar-helm-base
+
+Lion Helm:
+  - *bobar-helm-base
+
+Rage Helm:
+  - *bobar-helm-base
+
+Savage Helmet:
+  - *bobar-helm-base
+
+Slayer Guard:
+  - Qualities: unique
+  - *bobar-helm-base
+
+Carnage Helm:
+  - *bobar-helm-base
+
+Fury Visor:
+  - Qualities: unique
+  - *bobar-helm-base
+
+Destroyer Helm:
+  - *bobar-helm-base
+
+Conqueror Crown:
+  - *bobar-helm-base
+
+Guardian Crown:
+  - *bobar-helm-base
+
+# 死灵盾牌
+Cantor Trophy:
+  - Qualities: set
+
+Hierophant Trophy:
+  - Qualities: unique
+
+Succubus Skull:
+  - Qualities: unique
+
+Bloodlord Skull:
+  - Qualities: unique
+
+# 亚马逊武器
+Matriarchal Bow:
+  - Qualities: superior
+    Sockets: 4
+
+Grand Matron Bow:
+  - Qualities: superior
+    Sockets: 4
+
+Matriarchal Javelin:
+  - Qualities: [unique, magic, rare]
+
+Ceremonial Javelin:
+  - Qualities: [unique, magic, rare]
+
+# 法师天球
+Swirling Crystal:
+  - Qualities: [set, unique]
+
+Eldritch Orb:
+  - Qualities: unique
+
+Dimensional Shard:
+  - Qualities: unique
+
+# 斧头
+Berserker Axe:
+  - Qualities: unique
+  - Qualities: [normal, superior]
+    Sockets: [0, 5, 6]
+  - Qualities: [normal, superior]
+    Ethereal: true
+    Sockets: 4
+
+# 剑
+Crystal Sword:
+  - Qualities: normal
+    Sockets: [0, 4, 5]
+  - Qualities: superior
+    Sockets: [4, 5]
+
+Tulwar:
+  - Qualities: unique
+
+Battle Sword:
+  - Qualities: unique 
+    Ethereal: true
+
+Tusk Sword:
+  - Qualities: unique
+    Ethereal: true
+
+Phase Blade:
+  - Qualities: unique
+  - Qualities: [normal, superior]
+    Sockets: 5
+
+Zweihander:
+  - Qualities: [normal, superior]
+    Sockets: 5
+
+Colossus Sword:
+  - Qualities: [normal, superior]
+    Sockets: [0, 4, 5]
+
+Colossus Blade:
+  - Qualities: unique
+  - Qualities: [normal, superior]
+    Sockets: [0, 4, 5, 6]
+
+Balrog Blade:
+  - Qualities: [normal, superior]
+    Sockets: [0, 4]
+
+Cryptic Sword:
+  - Qualities: [normal, superior]
+    Sockets: [0, 4]
+
+# 钉头锤
+Flai:
+  - Qualities: [normal, superior]
+    Sockets: [4, 5]
+
+Scourge:
+  - Qualities: unique
+
+# 弓
+Long Bow:
+  - Qualities: unique
+
+Short Siege Bow:
+  - Qualities: unique
+
+Gothic Bow:
+  - Qualities: unique
+
+Hydra Bow:
+  - Qualities: unique
+
+Shadow Bow:
+  - Qualities: superior
+    Sockets: 4
+
+Diamond Bow:
+  - Qualities: superior
+    Sockets: 4
+
+Ward Bow:
+  - Qualities: superior
+    Sockets: 4
+
+Great Bow:
+  - Qualities: superior
+    Sockets: 4
+
+# 权杖
+Mighty Scepter:
+  - Qualities: unique
+
+Caduceus:
+  - Qualities: unique
+  - Qualities: [normal, superior]
+    Sockets: [0, 4, 5]
+
+Divine Scepter:
+  - Qualities: [normal, superior]
+    Sockets: [0, 4, 5]
+
+War Scepter:
+  - Qualities: [normal, superior]
+    Sockets: [0, 4, 5]
+
+# 法师法杖
+Elder Staff:
+  - Qualities: [set, unique]
+
+Archon Staff:
+  - Qualities: unique
+
+# 死灵手杖
+Burnt Wand:
+  - Qualities: unique
+
+Petrified Wand:
+  - Qualities: unique
+
+Tomb Wand:
+  - Qualities: unique
+
+Uneatthed Wand:
+  - Qualities: unique
+
+# 长矛
+Fuscina:
+  - Qualities: unique
+    Ethereal: true
+
+Yari:
+  - Qualities: unique
+    Ethereal: true
+
+War Pike:
+  - Qualities: [normal, superior]
+    Ethereal: true
+    Sockets: [0, 6]
+
+Ghost Spear:
+  - Qualities: [normal, superior]
+    Ethereal: true
+    Sockets: [0, 6]
+
+# 长柄
+Colossus Voulge:
+  - *merc-wep-base
+
+Thresher:
+  - Qualities: unique
+  - *merc-wep-base
+
+Cryptic Axe:
+  - Qualities: unique
+  - *merc-wep-base
+
+Great Poleaxe:
+  - *merc-wep-base
+
+Giant Thresher:
+  - Qualities: unique
+  - *merc-wep-base
+
+# 符文
+# El Rune:
+# Eld Run:
+Tir Rune:
+# Nef Rune:
+# Eth Rune:
+# Ith Rune:
+Tal Rune:
+Ral Rune:
+# Ort Rune:
+# Thul Rune:
+# Amn Rune:
+Sol Rune:
+# Shael Rune:
+# Dol Rune:
+Hel Rune:
+# Io Rune:
+# Lum Rune:
+# Ko Rune:
+Fal Rune:
+Lem Rune:
+Pul Rune:
+Um Rune:
+Mal Rune:
+Ist Rune:
+Gul Rune:
+Vex Rune:
+Ohm Rune:
+Lo Rune:
+Sur Rune:
+Ber Rune:
+Jah Rune:
+Cham Rune:
+Zod Rune:
+
+# 宝石
+Flawless Ruby:
+Flawless Sapphire:
+Flawless Emerald:
+Flawless Amethyst:
+Flawless Diamond:
+Flawless Topaz:
+Flawless Skull:
+Perfect Ruby:
+Perfect Emerald:
+Perfect Sapphire:
+Perfect Amethyst:
+Perfect Diamond:
+Perfect Topaz:
+Perfect Skull:
+
+# 杂项
+Amulet:
+ - Qualities: 
+   - magic
+   - rare
+   - unique
+   - set
+  
+Ring:
+ - Qualities: 
+   - magic
+   - rare
+   - unique
+   - set
+
+Jewel:
+ - Qualities: 
+   - magic
+   - rare
+   - unique
+
+Small Charm:
+ - Qualities: [magic, unique]
+
+Large Charm:
+ - Qualities: [magic, unique]
+
+Grand Charm:
+ - Qualities: [magic, unique]
+
+Key of Terror:
+Key of Hate:
+Key of Destruction:
