@@ -14,10 +14,6 @@ x-bases:
   - &pally-shield-base
     Qualities: [normal, superior]
     Sockets: [0, 4]
-  - &bobar-helm-base
-    - Qualities: [magic, rare]
-    - Qualities: [normal, superior]
-      Sockets: [0, 3]
 
 # 通用头盔
 Winged Helm:
@@ -272,52 +268,83 @@ Gilded Shield:
 
 # 野蛮人头
 Jawbone Cap:
-  - *bobar-helm-base
+  - Qualities: [magic, rare]
+  - Qualities: [normal, superior]
+    Sockets: [0, 3]
+
 
 Fanged Helm:
-  - *bobar-helm-base
+  - Qualities: [magic, rare]
+  - Qualities: [normal, superior]
+    Sockets: [0, 3]
 
 Horned Helm:
-  - *bobar-helm-base
+  - Qualities: [magic, rare]
+  - Qualities: [normal, superior]
+    Sockets: [0, 3]
 
 Assault Helmet:
-  - *bobar-helm-base
+  - Qualities: [magic, rare]
+  - Qualities: [normal, superior]
+    Sockets: [0, 3]
 
 Avenger Guard:
   - Qualities: set
-  - *bobar-helm-base
+  - Qualities: [magic, rare]
+  - Qualities: [normal, superior]
+    Sockets: [0, 3]
 
 Jawbone Visor:
-  - *bobar-helm-base
+  - Qualities: [magic, rare]
+  - Qualities: [normal, superior]
+    Sockets: [0, 3]
 
 Lion Helm:
-  - *bobar-helm-base
+  - Qualities: [magic, rare]
+  - Qualities: [normal, superior]
+    Sockets: [0, 3]
 
 Rage Helm:
-  - *bobar-helm-base
+  - Qualities: [magic, rare]
+  - Qualities: [normal, superior]
+    Sockets: [0, 3]
 
 Savage Helmet:
-  - *bobar-helm-base
+  - Qualities: [magic, rare]
+  - Qualities: [normal, superior]
+    Sockets: [0, 3]
 
 Slayer Guard:
   - Qualities: unique
-  - *bobar-helm-base
+  - Qualities: [magic, rare]
+  - Qualities: [normal, superior]
+    Sockets: [0, 3]
 
 Carnage Helm:
-  - *bobar-helm-base
+  - Qualities: [magic, rare]
+  - Qualities: [normal, superior]
+    Sockets: [0, 3]
 
 Fury Visor:
   - Qualities: unique
-  - *bobar-helm-base
+  - Qualities: [magic, rare]
+  - Qualities: [normal, superior]
+    Sockets: [0, 3]
 
 Destroyer Helm:
-  - *bobar-helm-base
+  - Qualities: [magic, rare]
+  - Qualities: [normal, superior]
+    Sockets: [0, 3]
 
 Conqueror Crown:
-  - *bobar-helm-base
+  - Qualities: [magic, rare]
+  - Qualities: [normal, superior]
+    Sockets: [0, 3]
 
 Guardian Crown:
-  - *bobar-helm-base
+  - Qualities: [magic, rare]
+  - Qualities: [normal, superior]
+    Sockets: [0, 3]
 
 # 死灵盾牌
 Cantor Trophy:
@@ -335,11 +362,11 @@ Bloodlord Skull:
 # 亚马逊武器
 Matriarchal Bow:
   - Qualities: superior
-    Sockets: 4
+    Sockets: [4]
 
 Grand Matron Bow:
   - Qualities: superior
-    Sockets: 4
+    Sockets: [4]
 
 Matriarchal Javelin:
   - Qualities: [unique, magic, rare]
@@ -364,7 +391,7 @@ Berserker Axe:
     Sockets: [0, 5, 6]
   - Qualities: [normal, superior]
     Ethereal: true
-    Sockets: 4
+    Sockets: [4]
 
 # 剑
 Crystal Sword:
@@ -387,11 +414,11 @@ Tusk Sword:
 Phase Blade:
   - Qualities: unique
   - Qualities: [normal, superior]
-    Sockets: 5
+    Sockets: [5]
 
 Zweihander:
   - Qualities: [normal, superior]
-    Sockets: 5
+    Sockets: [5]
 
 Colossus Sword:
   - Qualities: [normal, superior]
@@ -433,19 +460,19 @@ Hydra Bow:
 
 Shadow Bow:
   - Qualities: superior
-    Sockets: 4
+    Sockets: [4]
 
 Diamond Bow:
   - Qualities: superior
-    Sockets: 4
+    Sockets: [4]
 
 Ward Bow:
   - Qualities: superior
-    Sockets: 4
+    Sockets: [4]
 
 Great Bow:
   - Qualities: superior
-    Sockets: 4
+    Sockets: [4]
 
 # 权杖
 Mighty Scepter:
